@@ -17,7 +17,7 @@ set mini_prefix = step6.0_minimization
 set equi_prefix = step6.%d_equilibration
 set prod_prefix = step7_production
 set prod_step   = step7
-
+alias gmx /home/acsmeyer/gromacs-2021.2/build/bin/gmx
 
 # Minimization
 # In the case that there is a problem during minimization using a single precision of GROMACS, please try to use 
